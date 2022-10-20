@@ -1,0 +1,73 @@
+<%- include partials/header.ejs %>
+
+
+<%- include partials/main_nav.ejs %>
+
+<!DOCTYPE html>
+<html>
+ <body style="color: gold; background-color:black;">
+    <div align="center">
+        <div class="jumbotron">
+        <h2>Contact me: </h2>
+        <h2>Moble Phone Number: (604)-618-7331</h2>
+        <h2>Email: ymao6@my.cetennialcollege.ca</h2>
+    </div>
+    </div>
+
+
+
+
+   <body>
+       <body onload="document.registration.fname.focus();">
+        <div style="margin-left:180px; margin-right:180px; padding:5px;background-color:grey; ">
+        <h1 align="center" color="gold">Contact form</h1>
+        <p align="center">Please complete the all fields below:</p>
+        <form name='registration'>
+            
+            <div align="center">
+                    <li><label for="userid">First name:<sup style="color:#F00">*</sup> </label></li>
+                    <li><input type="text" name="fname" size="27" /></li>
+                    <li><label for="passid">Last name:<sup style="color:#F00">*</sup> </label></li>
+                    <li><input type="text" name="lname" size="27" /></li>
+                    <li><label for="address">Address:<sup style="color:#F00">*</sup> </label></li>
+                    <li><input type="text" name="address" size="27" /></li>
+                    <li><label for="userid">City:<sup style="color:#F00">*</sup> </label></li>
+                    <li><input type="text" name="city" size="27" /></li>
+                    <li><label for="passid">Postal Code:<sup style="color:#F00">*</sup> </label></li>
+                    <li><input type="text" name="postalcode" size="27" /></li>
+                    <li><label for="userid">Provience:<sup style="color:#F00">*</sup> </label></li>
+                    
+                    <li>
+                        <select name="provience">
+                            <option selected="" value="Default">(Please select a Provience)</option>
+                            <option value="QC">QC</option>
+                            <option value="ON">ON</option>
+                            <option value="MN">MN</option>
+                            <option value="SK">SK</option>
+                            <option value="AB">AB</option>
+                            <option value="BC">BC</option>
+                        </select>
+                    </li>
+                    <li><label for="passid">Age:<sup style="color:#F00">*</sup> </label></li>
+                    <li><input type="text" name="age" size="26" /></li>
+                    <li><label for="userid">Password:<sup style="color:#F00">*</sup> </label></li>
+                    <li><input type="Password" name="passid" size="26" /></li>
+                    <li><label for="passid">Confirm:<sup style="color:#F00">*</sup> </label></li>
+                    <li><input type="Password" name="confirm" size="26" /></li>
+                    <li><label for="email">Email:<sup style="color:#F00">*</sup> </label></li>
+                    <li><input type="text" name="email" size="26" /></li>
+                    </br>
+                    <li><input type="reset" name="reset" value="Clear Form" onClick="return confirmreset()" /></li>
+                    </br>
+                    <li><input type="submit" name="submit" value="submit" onClick="return formValidation();" /></li>
+                </div>
+                    
+            </div>
+        </form><br> <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>   
+    </body>
+    </body>
+</html>
+<%- include partials/bottom_nav.ejs %>
+
+
+<%- include partials/footer.ejs %>
