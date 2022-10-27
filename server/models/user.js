@@ -1,3 +1,8 @@
+//Student Name: Yin-Siang Moa
+//Student ID: 301180968
+//Date: Oct 26 2022
+
+
 // require modules for the User Model
 let mongoose = require('mongoose');
 let passportLocalMongoose = require('passport-local-mongoose');

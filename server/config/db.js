@@ -1,3 +1,7 @@
+//Student Name: Yin-Siang Moa
+//Student ID: 301180968
+//Date: Oct 26 2022
+
 module.exports = 
 {
     //"URI": "mongodb://localhost/book_store"
