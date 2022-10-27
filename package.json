@@ -35,6 +35,17 @@
     "@types/passport": "^1.0.11",
     "@types/passport-local": "^1.0.34",
     "@types/passport-local-mongoose": "^6.1.1"
-  }
-
+  },
+  "description": "assignment 2 for comp229",
+  "main":"server.js",
+  "repository": {
+    "type":"git",
+    "url": "git+https://github.com/patmao/assignment2-for-comp229"
+  },
+  "author": "Yin-Siang Mao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patmao/assignment2-for-comp229/issues"
+  },
+  "homepage": "https://github.com/patmao/assignment2-for-comp229"
 }
