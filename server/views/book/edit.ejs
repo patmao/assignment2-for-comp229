@@ -10,54 +10,32 @@
 
             <form class="form" method="POST">
                 <div class="form-gropp">
-                    <label for="nameTextField">Book Title</label>
+                    <label for="nameTextField">Name</label>
                     <input type="text" class="form-control"
                     id="nameTextField"
-                    placeholder="Enter the Book Title"
+                    placeholder="Enter the name"
                     name="name" 
                     value="<%= book.name %>"
                     reqiuired>
                 </div>
 
                 <div class="form-gropp">
-                    <label for="authorTextField">Author</label>
+                    <label for="authorTextField">Contact Number</label>
                     <input type="text" class="form-control"
                     id="authorTextField"
-                    placeholder="Enter the Book's Author"
+                    placeholder="Enter the number"
                     name="author" 
                     value="<%= book.author %>"
                     reqiuired>
                 </div>
 
                 <div class="form-gropp">
-                    <label for="publishedTextField">Year</label>
+                    <label for="publishedTextField">Email Address</label>
                     <input type="text" class="form-control"
                     id="publishedTextField"
-                    placeholder="Enter the Year of Publication"
+                    placeholder="Enter the Email Address"
                     name="published" 
                     value="<%= book.published %>"
-                    reqiuired>
-                </div>
-
-                <div class="form-gropp">
-                    <label for="descriptionTextArea">Description</label>
-                    <textarea type="text" class="form-control"
-                    id="descriptionTextArea"
-                    placeholder="Enter the a brief description of the book"
-                    name="description" 
-                    reqiuired>
-                    <%= book.description %>
-                    </textarea>
-                </div>    
-
-                
-                <div class="form-gropp">
-                    <label for="priceTextField">Price</label>
-                    <input type="text" class="form-control"
-                    id="priceTextField"
-                    placeholder="Enter the Book's Price"
-                    name="price" 
-                    value="<%= book.price %>"
                     reqiuired>
                 </div>
 
